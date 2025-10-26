@@ -1,65 +1,15 @@
 {
   "pages": {
-    "/_not-found/page": [
-      "static/chunks/webpack-f01e7b088fbf31ef.js",
-      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
-      "static/chunks/117-744bf36b14dad30e.js",
-      "static/chunks/main-app-8e5fb9fc5dec085c.js",
-      "static/chunks/app/_not-found/page-221ef7203edcd7a2.js"
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
     ],
     "/layout": [
-      "static/chunks/webpack-f01e7b088fbf31ef.js",
-      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
-      "static/chunks/117-744bf36b14dad30e.js",
-      "static/chunks/main-app-8e5fb9fc5dec085c.js",
-      "static/css/e6a875e2c869638a.css",
-      "static/chunks/648-ca5c008ca4413444.js",
-      "static/chunks/app/layout-2cb038ae799049f0.js"
-    ],
-    "/maschinen/[slug]/page": [
-      "static/chunks/webpack-f01e7b088fbf31ef.js",
-      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
-      "static/chunks/117-744bf36b14dad30e.js",
-      "static/chunks/main-app-8e5fb9fc5dec085c.js",
-      "static/chunks/app/maschinen/[slug]/page-0c1f26777a715fa7.js"
-    ],
-    "/page": [
-      "static/chunks/webpack-f01e7b088fbf31ef.js",
-      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
-      "static/chunks/117-744bf36b14dad30e.js",
-      "static/chunks/main-app-8e5fb9fc5dec085c.js",
-      "static/chunks/648-ca5c008ca4413444.js",
-      "static/chunks/646-590695d22c5bb708.js",
-      "static/chunks/app/page-5c1f3df38de617a3.js"
-    ],
-    "/impressum/page": [
-      "static/chunks/webpack-f01e7b088fbf31ef.js",
-      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
-      "static/chunks/117-744bf36b14dad30e.js",
-      "static/chunks/main-app-8e5fb9fc5dec085c.js",
-      "static/chunks/app/impressum/page-2eac95c3978824f4.js"
-    ],
-    "/maschinen/page": [
-      "static/chunks/webpack-f01e7b088fbf31ef.js",
-      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
-      "static/chunks/117-744bf36b14dad30e.js",
-      "static/chunks/main-app-8e5fb9fc5dec085c.js",
-      "static/chunks/648-ca5c008ca4413444.js",
-      "static/chunks/app/maschinen/page-c9b3384bd0681539.js"
-    ],
-    "/kontakt/page": [
-      "static/chunks/webpack-f01e7b088fbf31ef.js",
-      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
-      "static/chunks/117-744bf36b14dad30e.js",
-      "static/chunks/main-app-8e5fb9fc5dec085c.js",
-      "static/chunks/app/kontakt/page-18ba23d081dfcd2b.js"
-    ],
-    "/datenschutz/page": [
-      "static/chunks/webpack-f01e7b088fbf31ef.js",
-      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
-      "static/chunks/117-744bf36b14dad30e.js",
-      "static/chunks/main-app-8e5fb9fc5dec085c.js",
-      "static/chunks/app/datenschutz/page-7346ba489807bbb0.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
     ]
   }
 }
