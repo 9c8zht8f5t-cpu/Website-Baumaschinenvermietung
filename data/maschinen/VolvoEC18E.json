@@ -1,0 +1,37 @@
+{
+  "slug": "VolvoEC18E",
+  "name": "Volvo EC18E (1.8 t)",
+  "kategorie": "Minibagger",
+  "bilder": ["/img/Mietservice-1-2.jpg", "/img/Mietservice-2-2.jpg", "/img/Mietservice-3-2.jpg"],
+  "preise": {
+    "tag": 120,
+    "wochenende": 160,
+    "woche": 500,
+    "transport_km": 1.2,
+    "kaution": 500,
+    "mwst": 19
+  },
+  "technische_daten": {
+    "Betriebsgewicht": "1.810 kg (Kabine), 1.726 kg (Canopy)",
+    "Breite Unterwagen": "995–1.352 mm (variabel)",
+    "Transportlänge": "3.550 mm",
+    "Höhe (Transport)": "< 2,35 m",
+    "Grabtiefe": "2.234–2.434 mm (je nach Arm)",
+    "Reichweite am Boden": "3.800–3.993 mm",
+    "Löffelinhalt": "0,01–0,05 m³",
+    "Motor": "Volvo D0.9A (Diesel)",
+    "Motorleistung": "12 kW (brutto) / 11,8 kW (netto) bei 2.300 U/min",
+    "Fahrgeschwindigkeit": "2,5 / 4,6 km/h",
+    "Schwenkgeschwindigkeit": "9,5 U/min",
+    "Losbrechkraft (Schaufel)": "12,9 kN",
+    "Reißkraft (Stiel)": "8,0 kN"
+  },
+  "zubehoer": [
+    { "name": "Schaufel 30 cm"},
+    { "name": "Schaufel 45 cm" },
+    { "name": "Schaufel 85 cm" },
+    { "name": "Steinsetzzange", "preis_tag": 25 }
+  ],
+  "verfuegbar": true,
+  "kurztext": "Kompakter Minibagger mit variablem Unterwagen (995–1.352 mm) und unter 2,35 m Transporthöhe – ideal für enge Einfahrten."
+}
