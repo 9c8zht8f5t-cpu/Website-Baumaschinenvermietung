@@ -8,6 +8,22 @@ import { bruttoFrom, firstBild } from "@/lib/type";
 
 type PageProps = { params: { slug: string } };
 
+// ✅ Alle statischen Pfade für den Export bereitstellen
+export async function generateStaticParams(): Promise<{ slug: string }[]> {
+  // Wir lesen die Slugs direkt aus deiner Datenquelle
+  const { MASCHINEN } = await import("@/data/maschinen");
+  return MASCHINEN.map(m => ({ slug: m.slug }));
+}
+
+// ✅ Unbekannte Slugs als 404 behandeln (empfohlen für output:'export')
+export const dynamicParams = false;
+
+// (Optional) SEO pro Detailseite
+export function generateMetadata({ params }: PageProps) {
+  const m = findeMaschine(params.slug) as Maschine | null;
+  return { title: m ? `${m.name} | Baumaschinenvermietung` : "Maschine" };
+}
+
 export default function MaschineDetail({ params }: PageProps) {
   const raw = findeMaschine(params.slug) as Maschine | null;
   if (!raw) return notFound();
@@ -21,7 +37,7 @@ export default function MaschineDetail({ params }: PageProps) {
   const wocheBrutto       = bruttoFrom(m.preise?.woche,      mw, withMwst);
 
   // Kaution: sowohl unter preise als auch auf Root unterstützen
-  const kaution = m.preise?.kaution ?? m.kaution ?? null;
+  const kaution = m.preise?.kaution ?? (m as any).kaution ?? null;
 
   // Galerie-Quellen absichern
   const bilder = m.bilder?.filter(Boolean) ?? [];
