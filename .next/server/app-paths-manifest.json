@@ -1,10 +1,1 @@
-{
-  "/_not-found/page": "app/_not-found/page.js",
-  "/api/contact/route": "app/api/contact/route.js",
-  "/page": "app/page.js",
-  "/impressum/page": "app/impressum/page.js",
-  "/maschinen/page": "app/maschinen/page.js",
-  "/maschinen/[slug]/page": "app/maschinen/[slug]/page.js",
-  "/kontakt/page": "app/kontakt/page.js",
-  "/datenschutz/page": "app/datenschutz/page.js"
-}
+{}
