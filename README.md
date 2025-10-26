@@ -17,3 +17,4 @@ API Route `/api/contact` sendet E-Mails via SMTP.
 
 Bitte Impressum/Datenschutz ergänzen und `src/lib/seo.ts` (Adresse, Domain, Telefon) anpassen.
 # Website-Baumaschinenvermietung
+# Vermietung1
