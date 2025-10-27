@@ -5,6 +5,8 @@ import Link from "next/link";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
+const base = process.env.NEXT_PUBLIC_BASE_PATH || '';
+<div style={{ backgroundImage: `url('${base}/img/logo-v2.png')` }} />
 
   return (
     <header className="w-full bg-white/90 backdrop-blur border-b shadow-sm sticky top-0 z-50">
@@ -12,7 +14,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="/" className="flex justify-center" aria-label="Zur Startseite">
          <Image
-  src="/workspaces/Website-Baumaschinenvermietung/public/img/logo-v2.png"
+  src="/img/logo-v2.png"
   alt="Mietservice Digitalsanierung"
   width={180}
   height={48}

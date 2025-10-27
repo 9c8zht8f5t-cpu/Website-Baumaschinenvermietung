@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const isProd = process.env.NODE_ENV === 'production';
-const repo = 'Website-Baumaschinenvermietung'; // exakt dein Repo-Name
+
 
 const nextConfig = {
+  env: { NEXT_PUBLIC_BASE_PATH: isProd ? `/${repo}` : '' },
   output: 'export',
   images: { unoptimized: true },
   experimental: { typedRoutes: true },
