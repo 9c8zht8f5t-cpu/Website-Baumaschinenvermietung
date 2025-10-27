@@ -32,8 +32,8 @@ declare namespace __next_route_internal_types__ {
     | `/`
     | `/impressum`
     | `/datenschutz`
-    | `/maschinen`
     | `/kontakt`
+    | `/maschinen`
   type DynamicRoutes<T extends string = string> = 
     | `/maschinen/${SafeSlug<T>}`
 

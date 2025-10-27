@@ -3,7 +3,7 @@
   "/page": "app/page.js",
   "/impressum/page": "app/impressum/page.js",
   "/datenschutz/page": "app/datenschutz/page.js",
+  "/kontakt/page": "app/kontakt/page.js",
   "/maschinen/page": "app/maschinen/page.js",
-  "/maschinen/[slug]/page": "app/maschinen/[slug]/page.js",
-  "/kontakt/page": "app/kontakt/page.js"
+  "/maschinen/[slug]/page": "app/maschinen/[slug]/page.js"
 }

@@ -11,13 +11,13 @@ export default function Header() {
       <div className="max-w-6xl mx-auto flex flex-col items-center py-3">
         {/* Logo */}
         <Link href="/" className="flex justify-center" aria-label="Zur Startseite">
-          <Image
-            src="/img/Logo_V2.png"                // liegt in /public/img/
-            alt="Mietservice Digitalsanierung"
-            width={180}
-            height={48}
-            className="h-12 w-auto"
-            priority                              // lädt sofort auf der Startseite
+         <Image
+  src="/img/logo-v2.png"
+  alt="Mietservice Digitalsanierung"
+  width={180}
+  height={48}
+  className="h-12 w-auto"
+  priority                        // lädt sofort auf der Startseite
           />
         </Link>
 
