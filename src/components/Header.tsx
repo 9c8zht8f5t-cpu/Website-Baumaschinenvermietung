@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Header() {
@@ -9,8 +10,15 @@ export default function Header() {
     <header className="w-full bg-white/90 backdrop-blur border-b shadow-sm sticky top-0 z-50">
       <div className="max-w-6xl mx-auto flex flex-col items-center py-3">
         {/* Logo */}
-        <Link href="/" className="flex justify-center">
-          <img src="/img/Logo_V2.png" alt="Mietservice Digitalsanierung" className="h-12 w-auto" />
+        <Link href="/" className="flex justify-center" aria-label="Zur Startseite">
+          <Image
+            src="/img/Logo_V2.png"                // liegt in /public/img/
+            alt="Mietservice Digitalsanierung"
+            width={180}
+            height={48}
+            className="h-12 w-auto"
+            priority                              // lädt sofort auf der Startseite
+          />
         </Link>
 
         {/* Top Row: Burger on mobile */}
@@ -28,7 +36,7 @@ export default function Header() {
           </button>
         </div>
 
-        {/* Nav */}
+        {/* Navigation */}
         <nav
           className={`
             ${open ? "flex" : "hidden"} 
