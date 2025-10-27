@@ -17,20 +17,6 @@
       "static/chunks/85-20f1dec17628f7c5.js",
       "static/chunks/app/layout-cb70edb46e01bcf9.js"
     ],
-    "/impressum/page": [
-      "static/chunks/webpack-91b0da54f85ecfc7.js",
-      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
-      "static/chunks/117-2e956c9ce21d59cb.js",
-      "static/chunks/main-app-3c1fd150aee223cf.js",
-      "static/chunks/app/impressum/page-a0c31037fc046de9.js"
-    ],
-    "/kontakt/page": [
-      "static/chunks/webpack-91b0da54f85ecfc7.js",
-      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
-      "static/chunks/117-2e956c9ce21d59cb.js",
-      "static/chunks/main-app-3c1fd150aee223cf.js",
-      "static/chunks/app/kontakt/page-8dbb6c9be0c082ce.js"
-    ],
     "/page": [
       "static/chunks/webpack-91b0da54f85ecfc7.js",
       "static/chunks/fd9d1056-b11b2651f33aae7f.js",
@@ -40,19 +26,19 @@
       "static/chunks/646-590695d22c5bb708.js",
       "static/chunks/app/page-e33c31840f8b7af4.js"
     ],
+    "/impressum/page": [
+      "static/chunks/webpack-91b0da54f85ecfc7.js",
+      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
+      "static/chunks/117-2e956c9ce21d59cb.js",
+      "static/chunks/main-app-3c1fd150aee223cf.js",
+      "static/chunks/app/impressum/page-f030e242a715b587.js"
+    ],
     "/datenschutz/page": [
       "static/chunks/webpack-91b0da54f85ecfc7.js",
       "static/chunks/fd9d1056-b11b2651f33aae7f.js",
       "static/chunks/117-2e956c9ce21d59cb.js",
       "static/chunks/main-app-3c1fd150aee223cf.js",
-      "static/chunks/app/datenschutz/page-9ca31bcc04d28da2.js"
-    ],
-    "/maschinen/[slug]/page": [
-      "static/chunks/webpack-91b0da54f85ecfc7.js",
-      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
-      "static/chunks/117-2e956c9ce21d59cb.js",
-      "static/chunks/main-app-3c1fd150aee223cf.js",
-      "static/chunks/app/maschinen/[slug]/page-0c1f26777a715fa7.js"
+      "static/chunks/app/datenschutz/page-1221b4b6cae2274a.js"
     ],
     "/maschinen/page": [
       "static/chunks/webpack-91b0da54f85ecfc7.js",
@@ -61,6 +47,20 @@
       "static/chunks/main-app-3c1fd150aee223cf.js",
       "static/chunks/648-0635d0448d19430c.js",
       "static/chunks/app/maschinen/page-add1586bdd4da3f4.js"
+    ],
+    "/maschinen/[slug]/page": [
+      "static/chunks/webpack-91b0da54f85ecfc7.js",
+      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
+      "static/chunks/117-2e956c9ce21d59cb.js",
+      "static/chunks/main-app-3c1fd150aee223cf.js",
+      "static/chunks/app/maschinen/[slug]/page-8e0b19db9ee8a085.js"
+    ],
+    "/kontakt/page": [
+      "static/chunks/webpack-91b0da54f85ecfc7.js",
+      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
+      "static/chunks/117-2e956c9ce21d59cb.js",
+      "static/chunks/main-app-3c1fd150aee223cf.js",
+      "static/chunks/app/kontakt/page-8dbb6c9be0c082ce.js"
     ]
   }
 }
