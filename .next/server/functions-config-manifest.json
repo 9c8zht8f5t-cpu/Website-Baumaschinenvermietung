@@ -1,1 +1,1 @@
-{"version":1,"functions":{"/impressum":{},"/kontakt":{},"/maschinen":{},"/datenschutz":{},"/maschinen/[slug]":{}}}
+{"version":1,"functions":{"/maschinen/[slug]":{},"/maschinen":{},"/kontakt":{},"/impressum":{},"/datenschutz":{}}}

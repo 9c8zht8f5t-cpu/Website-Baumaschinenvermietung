@@ -139,8 +139,6 @@ export const MASCHINEN: Maschine[] = [
       kaution: 150,
       mwst: 19
     },
-    // zusätzliche Felder aus deinem Datensatz:
-    bild: "/maschinen/trennschneider-wacker-neuson-bts-1035-l3.jpg",
     verfuegbar: true,
     kurztext:
       "Leistungsstarker Wacker Neuson BTS 1035 L3 Trennschneider mit 350 mm Scheibe – ideal für präzise Schnitte in Beton und Asphalt."

@@ -1,3 +1,65 @@
 {
-  "pages": {}
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-91b0da54f85ecfc7.js",
+      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
+      "static/chunks/117-2e956c9ce21d59cb.js",
+      "static/chunks/main-app-3c1fd150aee223cf.js",
+      "static/chunks/app/_not-found/page-221ef7203edcd7a2.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-91b0da54f85ecfc7.js",
+      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
+      "static/chunks/117-2e956c9ce21d59cb.js",
+      "static/chunks/main-app-3c1fd150aee223cf.js",
+      "static/css/509a1fc99615cc3f.css",
+      "static/chunks/648-0635d0448d19430c.js",
+      "static/chunks/app/layout-8eddff6e147429f6.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-91b0da54f85ecfc7.js",
+      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
+      "static/chunks/117-2e956c9ce21d59cb.js",
+      "static/chunks/main-app-3c1fd150aee223cf.js",
+      "static/chunks/648-0635d0448d19430c.js",
+      "static/chunks/646-590695d22c5bb708.js",
+      "static/chunks/app/page-e33c31840f8b7af4.js"
+    ],
+    "/datenschutz/page": [
+      "static/chunks/webpack-91b0da54f85ecfc7.js",
+      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
+      "static/chunks/117-2e956c9ce21d59cb.js",
+      "static/chunks/main-app-3c1fd150aee223cf.js",
+      "static/chunks/app/datenschutz/page-9ca31bcc04d28da2.js"
+    ],
+    "/impressum/page": [
+      "static/chunks/webpack-91b0da54f85ecfc7.js",
+      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
+      "static/chunks/117-2e956c9ce21d59cb.js",
+      "static/chunks/main-app-3c1fd150aee223cf.js",
+      "static/chunks/app/impressum/page-9b492ff3e0122400.js"
+    ],
+    "/kontakt/page": [
+      "static/chunks/webpack-91b0da54f85ecfc7.js",
+      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
+      "static/chunks/117-2e956c9ce21d59cb.js",
+      "static/chunks/main-app-3c1fd150aee223cf.js",
+      "static/chunks/app/kontakt/page-c06c0abb8b59f065.js"
+    ],
+    "/maschinen/page": [
+      "static/chunks/webpack-91b0da54f85ecfc7.js",
+      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
+      "static/chunks/117-2e956c9ce21d59cb.js",
+      "static/chunks/main-app-3c1fd150aee223cf.js",
+      "static/chunks/648-0635d0448d19430c.js",
+      "static/chunks/app/maschinen/page-add1586bdd4da3f4.js"
+    ],
+    "/maschinen/[slug]/page": [
+      "static/chunks/webpack-91b0da54f85ecfc7.js",
+      "static/chunks/fd9d1056-b11b2651f33aae7f.js",
+      "static/chunks/117-2e956c9ce21d59cb.js",
+      "static/chunks/main-app-3c1fd150aee223cf.js",
+      "static/chunks/app/maschinen/[slug]/page-06a371a15bbcf244.js"
+    ]
+  }
 }
