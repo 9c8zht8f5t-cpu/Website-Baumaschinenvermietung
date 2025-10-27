@@ -12,7 +12,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="/" className="flex justify-center" aria-label="Zur Startseite">
          <Image
-  src="/img/logo-v2.png"
+  src="/workspaces/Website-Baumaschinenvermietung/public/img/Logo_V2.png"
   alt="Mietservice Digitalsanierung"
   width={180}
   height={48}
