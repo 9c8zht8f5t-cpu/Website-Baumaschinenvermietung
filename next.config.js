@@ -1,21 +1,15 @@
 /** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === 'production';
-const repo = 'Website-Baumaschinenvermietung'; // exakt dein Repo-Name
-
 const nextConfig = {
-  // Für CSS background-image etc.
-  env: {
-    NEXT_PUBLIC_BASE_PATH: isProd ? `/${repo}` : ''
-  },
-
+  // Wenn du eine eigene Domain nutzt, brauchst du keinen basePath mehr!
   output: 'export',
   images: { unoptimized: true },
   experimental: { typedRoutes: true },
-
-  // Wichtig für GitHub Pages (Projekt-Repo unter /<repo>)
-  basePath: isProd ? `/${repo}` : '',
-  assetPrefix: isProd ? `/${repo}/` : '',
   trailingSlash: true,
+
+  // Optional: falls du trotzdem env-Variablen brauchst
+  env: {
+    NEXT_PUBLIC_BASE_PATH: '',
+  },
 };
 
 module.exports = nextConfig;
