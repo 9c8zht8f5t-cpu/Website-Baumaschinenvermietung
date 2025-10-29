@@ -4,7 +4,7 @@
   "kategorie": "Minibagger",
   "bilder": ["/img/Mietservice-1-2.jpg", "/img/Mietservice-2-2.jpg", "/img/Mietservice-3-2.jpg"],
   "preise": {
-    "tag": 120,
+    "tag": 130,
     "wochenende": 160,
     "woche": 500,
     "transport_km": 1.2,

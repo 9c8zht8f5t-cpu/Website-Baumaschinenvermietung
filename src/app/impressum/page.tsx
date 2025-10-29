@@ -32,7 +32,8 @@ export default function Impressum() {
       <section className="space-y-2">
         <h2 className="text-xl font-semibold">Umsatzsteuer</h2>
         <p>
-          Kleinunternehmer gemäß § 19 UStG. Es wird keine Umsatzsteuer ausgewiesen.
+          Umsatzsteuer-Identifikationsnummer: DE328125650
+          Es erfolgt ein Ausweis der Umsatzsteuer gemäß § 14 UStG.
         </p>
       </section>
 
