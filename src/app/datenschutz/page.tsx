@@ -1,3 +1,6 @@
+// app/datenschutz/page.tsx
+import CookieSettingsButton from "@/components/CookieSettingsButton";
+
 export const metadata = { title: "Datenschutzerklärung" };
 
 export default function Datenschutz() {
@@ -39,19 +42,17 @@ export default function Datenschutz() {
           <li>
             <strong>Bereitstellung der Website</strong> (technisch notwendige
             Verarbeitung, z. B. Server-Logs): Art. 6 Abs. 1 lit. f DSGVO
-            (berechtigtes Interesse an einer stabilen und sicheren
-            Bereitstellung).
+            (berechtigtes Interesse an einer stabilen und sicheren Bereitstellung).
           </li>
           <li>
             <strong>Kontaktanfragen</strong> (Kontaktformular/E-Mail/Telefon),
-            inkl. Terminabstimmung und Angebotserstellung: Art. 6 Abs. 1
-            lit. b DSGVO (vorvertragliche/vertragliche Maßnahmen).
+            inkl. Terminabstimmung und Angebotserstellung: Art. 6 Abs. 1 lit. b DSGVO
+            (vorvertragliche/vertragliche Maßnahmen).
           </li>
           <li>
-            <strong>Kundentyp-Auswahl (Privat/Gewerblich)</strong> mittels
-            Local Storage (Preis-Darstellung netto/brutto): Art. 6 Abs. 1
-            lit. f DSGVO (nutzerfreundliche Darstellung; nur Geräte-Speicher,
-            keine Server-Übermittlung).
+            <strong>Kundentyp-Auswahl (Privat/Gewerblich)</strong> mittels Local Storage
+            (Preis-Darstellung netto/brutto): Art. 6 Abs. 1 lit. f DSGVO
+            (nutzerfreundliche Darstellung; nur Geräte-Speicher, keine Server-Übermittlung).
           </li>
         </ul>
       </section>
@@ -60,11 +61,10 @@ export default function Datenschutz() {
       <section className="space-y-2">
         <h2 className="text-xl font-semibold">3. Server-Logfiles</h2>
         <p>
-          Beim Aufruf unserer Website werden automatisch Informationen
-          (z. B. IP-Adresse, Datum/Uhrzeit, abgerufene Seiten, Browsertyp und
-          -version) durch den Hosting-Provider erfasst. Diese Daten sind für die
-          Auslieferung und Sicherheit der Website erforderlich und werden nach
-          kurzer Zeit gelöscht oder anonymisiert. Eine Zusammenführung mit
+          Beim Aufruf unserer Website werden automatisch Informationen (z. B. IP-Adresse,
+          Datum/Uhrzeit, abgerufene Seiten, Browsertyp und -version) durch den Hosting-Provider
+          erfasst. Diese Daten sind für die Auslieferung und Sicherheit der Website erforderlich
+          und werden nach kurzer Zeit gelöscht oder anonymisiert. Eine Zusammenführung mit
           anderen Daten erfolgt nicht.
         </p>
       </section>
@@ -74,44 +74,56 @@ export default function Datenschutz() {
         <h2 className="text-xl font-semibold">
           4. Cookies, Local Storage & vergleichbare Technologien
         </h2>
+
         <p>
-          Wir verwenden <strong>keine Tracking-Cookies</strong>. Zur
-          nutzerfreundlichen Darstellung der Preise speichern wir lokal auf
-          Ihrem Endgerät (Browser) den <strong>Kundentyp</strong>:
+          Wir verwenden <strong>essenzielle Cookies</strong> zur Bereitstellung der Website.
+          Optional können Sie der Nutzung für <strong>Statistik</strong> und
+          <strong> Marketing</strong> zustimmen. Ihre Auswahl wird über unseren Cookie-Banner
+          gespeichert und kann jederzeit widerrufen werden.
         </p>
-        <div className="rounded-lg border bg-gray-50 p-3 text-sm">
-          Schlüssel: <code>kundentyp</code> (Wert: <code>"privat"</code> oder{" "}
-          <code>"gewerblich"</code>) – Speicherort: <strong>Local Storage</strong> –
-          Zweck: Preisanzeige inkl./zzgl. MwSt. – Speicherdauer: bis zur
-          Löschung durch Sie (z. B. über den „Kundentyp ändern“-Button oder
-          die Browser-Einstellungen).
+
+        <div className="rounded-lg border bg-gray-50 p-3 text-sm space-y-1">
+          <p className="font-medium">Speicherungen im Rahmen des Consent-Managements:</p>
+          <ul className="list-disc ml-5 space-y-1">
+            <li>
+              <strong>Consent-Cookie:</strong> <code>msd_consent</code> – enthält Ihre
+              Auswahl (essentiell/Statistik/Marketing), <em>Max-Age</em>: bis zu 180 Tage,
+              <em> Pfad</em>: <code>/</code>, <em>SameSite</em>: <code>Lax</code>. Zusätzlich
+              wird derselbe Wert im <strong>Local Storage</strong> abgelegt, um die Anzeige
+              auf dem Gerät zu steuern (keine Server-Übermittlung).
+            </li>
+            <li>
+              <strong>Kundentyp (Preis-Anzeige):</strong>{" "}
+              Schlüssel <code>kundentyp</code> mit Wert <code>"privat"</code> oder{" "}
+              <code>"gewerblich"</code> im <strong>Local Storage</strong>; Zweck: Darstellung
+              der Preise inkl./zzgl. MwSt.; Speicherdauer: bis zur Löschung durch Sie.
+            </li>
+          </ul>
         </div>
+
         <p className="text-sm text-gray-600">
-          Hinweis: Local-Storage-Daten werden <em>nicht</em> automatisch an
-          unseren Server übertragen.
+          Hinweis: Local-Storage-Daten werden <em>nicht</em> automatisch an unseren Server
+          übertragen. Sie können Ihre Auswahl jederzeit ändern:
         </p>
+
+        <CookieSettingsButton />
       </section>
 
       {/* 5) Kontaktformular */}
       <section className="space-y-2">
         <h2 className="text-xl font-semibold">5. Kontaktformular & E-Mail</h2>
         <p>
-          Bei Kontaktaufnahme verarbeiten wir Ihre Angaben (z. B. Name,
-          E-Mail, Telefonnummer, Nachricht) zur Bearbeitung der Anfrage und
-          etwaiger Rückfragen. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO.
-          Die Daten werden nur so lange gespeichert, wie es zur Bearbeitung
-          erforderlich ist bzw. gesetzliche Aufbewahrungsfristen bestehen.
+          Bei Kontaktaufnahme verarbeiten wir Ihre Angaben (z. B. Name, E-Mail, Telefonnummer,
+          Nachricht) zur Bearbeitung der Anfrage und etwaiger Rückfragen. Rechtsgrundlage ist
+          Art. 6 Abs. 1 lit. b DSGVO. Die Daten werden nur so lange gespeichert, wie es zur
+          Bearbeitung erforderlich ist bzw. gesetzliche Aufbewahrungsfristen bestehen.
         </p>
       </section>
 
       {/* 6) Hosting & Auftragsverarbeitung */}
       <section className="space-y-2">
-        <h2 className="text-xl font-semibold">
-          6. Hosting & Auftragsverarbeitung durch IONOS SE
-        </h2>
-        <p>
-          Diese Website wird bei der <strong>IONOS SE</strong> gehostet:
-        </p>
+        <h2 className="text-xl font-semibold">6. Hosting & Auftragsverarbeitung durch IONOS SE</h2>
+        <p>Diese Website wird bei der <strong>IONOS SE</strong> gehostet:</p>
         <p>
           IONOS SE<br />
           Elgendorfer Straße 57<br />
@@ -128,9 +140,9 @@ export default function Datenschutz() {
           </a>
         </p>
         <p>
-          IONOS verarbeitet in unserem Auftrag (Art. 28 DSGVO) Server-Logfiles,
-          Meta- und Kommunikationsdaten zur Bereitstellung und Sicherheit der
-          Website. Es besteht ein Auftragsverarbeitungsvertrag (AVV) mit IONOS.
+          IONOS verarbeitet in unserem Auftrag (Art. 28 DSGVO) Server-Logfiles, Meta- und
+          Kommunikationsdaten zur Bereitstellung und Sicherheit der Website. Es besteht ein
+          Auftragsverarbeitungsvertrag (AVV) mit IONOS.
         </p>
         <p className="text-sm text-gray-600">
           Weitere Informationen finden Sie in der{" "}
@@ -150,9 +162,8 @@ export default function Datenschutz() {
       <section className="space-y-2">
         <h2 className="text-xl font-semibold">7. Empfänger</h2>
         <p>
-          Eine Weitergabe Ihrer personenbezogenen Daten an Dritte erfolgt nur,
-          wenn dies gesetzlich erlaubt ist, Sie eingewilligt haben oder es zur
-          Erfüllung eines Vertrags erforderlich ist.
+          Eine Weitergabe Ihrer personenbezogenen Daten an Dritte erfolgt nur, wenn dies gesetzlich
+          erlaubt ist, Sie eingewilligt haben oder es zur Erfüllung eines Vertrags erforderlich ist.
         </p>
       </section>
 
@@ -160,9 +171,8 @@ export default function Datenschutz() {
       <section className="space-y-2">
         <h2 className="text-xl font-semibold">8. Speicherdauer</h2>
         <p>
-          Personenbezogene Daten werden gelöscht, sobald der Zweck der
-          Verarbeitung entfällt und keine gesetzlichen Aufbewahrungspflichten
-          entgegenstehen.
+          Personenbezogene Daten werden gelöscht, sobald der Zweck der Verarbeitung entfällt und
+          keine gesetzlichen Aufbewahrungspflichten entgegenstehen.
         </p>
       </section>
 
@@ -177,8 +187,7 @@ export default function Datenschutz() {
           <li>Datenübertragbarkeit (Art. 20 DSGVO)</li>
           <li>Widerspruch gegen Datenverarbeitung (Art. 21 DSGVO)</li>
           <li>
-            Beschwerderecht bei der zuständigen Aufsichtsbehörde (Art. 77
-            DSGVO)
+            Beschwerderecht bei der zuständigen Aufsichtsbehörde (Art. 77 DSGVO)
           </li>
         </ul>
         <p>
@@ -195,12 +204,10 @@ export default function Datenschutz() {
 
       {/* 10) Änderungen */}
       <section className="space-y-2">
-        <h2 className="text-xl font-semibold">
-          10. Änderungen dieser Datenschutzerklärung
-        </h2>
+        <h2 className="text-xl font-semibold">10. Änderungen dieser Datenschutzerklärung</h2>
         <p>
-          Wir behalten uns vor, diese Datenschutzerklärung zu ändern, um sie an
-          geänderte Rechtslagen oder technische Entwicklungen anzupassen.
+          Wir behalten uns vor, diese Datenschutzerklärung zu ändern, um sie an geänderte
+          Rechtslagen oder technische Entwicklungen anzupassen.
         </p>
       </section>
     </div>
