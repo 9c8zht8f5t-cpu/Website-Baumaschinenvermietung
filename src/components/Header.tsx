@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Header() {
   const [open, setOpen] = useState(false);
 const base = process.env.NEXT_PUBLIC_BASE_PATH || '';
-<div style={{ backgroundImage: `url('${base}/img/logo.png')` }} />
+<div style={{ backgroundImage: `url('${base}/img/Logo_V2.webp')` }} />
 
   return (
     <header className="w-full bg-white/90 backdrop-blur border-b shadow-sm sticky top-0 z-50">
@@ -14,7 +14,7 @@ const base = process.env.NEXT_PUBLIC_BASE_PATH || '';
         {/* Logo */}
         <Link href="/" className="flex justify-center" aria-label="Zur Startseite">
          <Image
-  src="/img/logo.png"
+  src="/img/Logo_V2.webp"
   alt="Mietservice Digitalsanierung"
   width={180}
   height={48}

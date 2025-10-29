@@ -2,7 +2,7 @@
   "slug": "VolvoL20F",
   "name": "Volvo L20F",
   "kategorie": "Minibagger",
-   "bilder": ["/img/Mietservice-1.jpg", "/img/Mietservice-3.jpg", "/img/Mietservice-2.jpg"],
+   "bilder": ["/img/Mietservice-1.webp", "/img/Mietservice-3.webp", "/img/Mietservice-2.webp"],
   "preise": {
     "tag": 165,
     "wochenende": 250,

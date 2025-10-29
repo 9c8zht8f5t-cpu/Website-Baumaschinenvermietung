@@ -31,7 +31,7 @@ export const MASCHINEN: Maschine[] = [
     slug: "VolvoL20F",
     name: "Volvo L20F",
     kategorie: "Minibagger",
-    bilder: ["/img/Mietservice-1.jpg", "/img/Mietservice-3.jpg", "/img/Mietservice-2.jpg"],
+    bilder: ["/img/Mietservice-1.webp", "/img/Mietservice-3.webp", "/img/Mietservice-2.webp"],
     preise: {
       tag: 165,
       wochenende: 250,
@@ -70,7 +70,7 @@ export const MASCHINEN: Maschine[] = [
     slug: "VolvoEC18E",
     name: "Volvo EC18E (1.8 t)",
     kategorie: "Minibagger",
-    bilder: ["/img/Mietservice-1-2.jpg", "/img/Mietservice-2-2.jpg", "/img/Mietservice-3-2.jpg"],
+    bilder: ["/img/Mietservice-1-2.webp", "/img/Mietservice-2-2.webp", "/img/Mietservice-3-2.webp"],
     preise: {
       tag: 120,
       wochenende: 160,
@@ -110,7 +110,7 @@ export const MASCHINEN: Maschine[] = [
     name: "Temared Baumaschinenanhänger Builder 153x260cm 2,7t",
     slug: "temared-baumaschinenanhaenger",
     kategorie: "Transportanhänger",
-    bilder: ["/img/Mietservice-8.jpg"],
+    bilder: ["/img/Mietservice-8.webp"],
     kurzbeschreibung:
       "Robuster Baumaschinenanhänger mit 2,7 t Gesamtgewicht und Rampe – ideal für den Transport von Minibaggern und Geräten.",
     beschreibung:
@@ -130,7 +130,7 @@ export const MASCHINEN: Maschine[] = [
     name: "Wacker Neuson BTS 1035 Trennschneider",
     slug: "wacker-neuson-bts-1035-l3",
     kategorie: "Trennschneider / Motorflex",
-    bilder: ["/img/Trennschneider.jpg"],
+    bilder: ["/img/Trennschneider.webp"],
     beschreibung:
       "Wir bieten hier unseren Wacker Neuson BTS 1035 L3 Trennschneider / Motorflex mit einem Scheibendurchmesser von 350 mm zur Miete an.\n\nTechnische Daten:\n- Scheibendurchmesser: 350 mm\n- Max. Schnitttiefe: 12 cm\n- Leistung: 4,2 kW (5,7 PS)\n- Betriebsgewicht: 11,3 kg\n- Zum Nassschneiden geeignet mit Wasseranschluss\n\nIm Mietpreis enthalten:\n- Wacker Neuson BTS 1035 L3\n- Kraftstoff (fertig gemischt)\n- Standard-Einweisung\n- Abnutzung der Diamantscheiben wird gesondert berechnet: 20 €/mm Abnutzung\n\nMietpreise:\n- 1–5 Tage: 30 € pro Tag netto / 35,70 € brutto\n- Wochenendpreis: 45 € netto / 53,55 € brutto (Fr. ab 18:00 Uhr bis So. oder Mo. nach Vereinbarung)\n- Langzeitmiete auf Anfrage (nur Werktage, Mo–Fr)\n\nKaution:\nBei Abholung ist eine Kaution von 150 € in bar zu hinterlegen. Diese wird nach Mietende zurückerstattet.\n\nTelefonnummer: 0151/50713702",
     preise: {
