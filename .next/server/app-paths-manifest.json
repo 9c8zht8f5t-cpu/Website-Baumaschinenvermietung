@@ -2,8 +2,8 @@
   "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js",
   "/impressum/page": "app/impressum/page.js",
-  "/kontakt/page": "app/kontakt/page.js",
+  "/maschinen/page": "app/maschinen/page.js",
   "/datenschutz/page": "app/datenschutz/page.js",
   "/maschinen/[slug]/page": "app/maschinen/[slug]/page.js",
-  "/maschinen/page": "app/maschinen/page.js"
+  "/kontakt/page": "app/kontakt/page.js"
 }
