@@ -8,13 +8,9 @@
     "tag": 65,
     "wochenende": 80,
     "woche": 270,
-    "kaution": 400,
+    "kaution": 300,
     "mwst": 19
   },
-  "zubehoer": [
-    { "name": "Verbreiterungsplatte 650 mm", "preis_tag": 10 },
-    { "name": "Transportrollen-Set", "preis_tag": 8 }
-  ],
   "verfuegbar": true,
   "kurztext": "Reversible BOMAG BPR 60/65 Rüttelplatte mit 60 kN Verdichtungskraft – ideal für Pflaster-, Wege- und Erdarbeiten."
 }
